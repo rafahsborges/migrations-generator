@@ -1,4 +1,4 @@
-# Laravel Migrations Generator Laravel 5/6/7 +
+# Laravel Migrations Generator Laravel 5/6/7/8 +
 
 
 [![Latest Stable Version](https://poser.pugx.org/oscarafdev/migrations-generator/v/stable)](https://packagist.org/packages/oscarafdev/migrations-generator)
@@ -8,7 +8,7 @@
 Generate Laravel Migrations from an existing database, including indexes and foreign keys!
 
 
-## Laravel 6 installation
+## Laravel 6/7/8 installation
 
 The recommended way to install this is through composer:
 
@@ -35,6 +35,10 @@ Check out Chung Tran's blog post for a quick step by step introduction: [Generat
 ## Changelog
 
 Changelog for Laravel Migrations Generator
+
+### Jan 2021: v2.0.24
+* Support for Laravel 8
+* Fixed a issue where double single quotes were generated
 
 ### Ago 2020: v2.0.23
 * Added support for precisions in timestamp.
