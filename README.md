@@ -1,5 +1,11 @@
 # Laravel Migrations Generator Laravel 5/6/7/8 +
 
+# 100,000 downloads
+
+
+I have been with very little time, doing what I can so that this library is useful for everyone who needs it. As of today we have more than 100,000 downloads, thank you very much everyone!
+
+Help me with a coffe: https://cafecito.app/oscarafdev (1 USD)
 
 [![Latest Stable Version](https://poser.pugx.org/oscarafdev/migrations-generator/v/stable)](https://packagist.org/packages/oscarafdev/migrations-generator)
 [![Total Downloads](https://poser.pugx.org/oscarafdev/migrations-generator/downloads)](https://packagist.org/packages/oscarafdev/migrations-generator)
@@ -47,50 +53,6 @@ Changelog for Laravel Migrations Generator
 
 ### May 2020: v2.0.19
 * Support for Laravel 7
-
-### 10 December 2019: v2.0.12
-* Support for Laravel 6
-
-### 20 November 2016: v2.0.0
-* Support for Laravel 5
-
-### 20 November 2016: v1.3.0
-* Add options --defaultIndexNames and --defaultFKNames to use Laravel's default generated names
-* --no-interaction support
-* Migrate table field comments
-* Add connection to migrations if its not the default
-* Bugfix:
-  * --ignore doesn't ignoring the first table in the list
-  * Remove backticks from index names #17
-  * Drop foreign keys used incorrect key name #34
-  * Remove table prefix from migrations
-  * Escape table names and args
-  * Map JSON columns as text
-  * Boolean default results in empty string
-
-### 25 July: v1.2.2
-* Support for Laravel 4.2
-* Support for named foreign keys
-* Fix error with --ignore option
-
-### 29 May: v1.2.1
-* Fixed problem with char fields showing up as varchar
-* Allow decimal, float, and double to be unsigned
-* Allow cascading on foreign key update/delete
-
-### 16 May: v1.2.0
-* Now fully supports for enum fields
-* Add support for bit fields as Boolean (Laravel Migration Limitation)
-
-### 10 May: v1.1.1
-* Fix crash when migrating tables that use enum
-* Added Tests
-* Major refactoring of the code
-
-### 24 March: v1.1.0
-* Ability to add entries into the Migrations Table, so that they won't be run as they already exist.
-* Convert Blobs to Binary fields
-* Minor Code Changes
 
 ## Thank You
 
