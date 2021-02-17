@@ -3,6 +3,8 @@
 [![Monthly Downloads](https://poser.pugx.org/oscarafdev/migrations-generator/d/monthly)](//packagist.org/packages/oscarafdev/migrations-generator)
 [![License](https://poser.pugx.org/oscarafdev/migrations-generator/license)](https://packagist.org/packages/oscarafdev/migrations-generator)
 
+Generate Laravel Migrations from an existing database, including indexes and foreign keys!
+
 # 100,000 downloads
 
 
@@ -10,8 +12,6 @@ I have been with very little time, doing what I can so that this library is usef
 
 Help me with a coffe: https://cafecito.app/oscarafdev (1 USD)
 
-
-Generate Laravel Migrations from an existing database, including indexes and foreign keys!
 
 
 ## Laravel 6/7/8 installation
