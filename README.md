@@ -1,6 +1,6 @@
 # Laravel Migrations Generator Laravel 5/6/7/8 +
 [![Latest Stable Version](https://poser.pugx.org/oscarafdev/migrations-generator/v/stable)](https://packagist.org/packages/oscarafdev/migrations-generator)
-[![Total Downloads](https://poser.pugx.org/oscarafdev/migrations-generator/downloads)](https://packagist.org/packages/oscarafdev/migrations-generator)
+[![Monthly Downloads](https://poser.pugx.org/oscarafdev/migrations-generator/d/monthly)](//packagist.org/packages/oscarafdev/migrations-generator)
 [![License](https://poser.pugx.org/oscarafdev/migrations-generator/license)](https://packagist.org/packages/oscarafdev/migrations-generator)
 
 # 100,000 downloads
