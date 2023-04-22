@@ -5,13 +5,9 @@
 
 Generate Laravel Migrations from an existing database, including indexes and foreign keys!
 
-# 100,000 downloads
+# Contact
 
-
-I have been with very little time, doing what I can so that this library is useful for everyone who needs it. As of today we have more than 100,000 downloads, thank you very much everyone!
-
-Help me with a coffe: https://cafecito.app/oscarafdev (1 USD)
-
+https://t.me/h0rnero
 
 
 ## Laravel 6/7/8 installation
