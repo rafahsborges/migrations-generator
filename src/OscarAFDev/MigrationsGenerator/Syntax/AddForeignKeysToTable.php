@@ -1,8 +1,8 @@
-<?php namespace OscarAFDev\MigrationsGenerator\Syntax;
+<?php namespace RafahSBorges\MigrationsGenerator\Syntax;
 
 /**
  * Class AddForeignKeysToTable
- * @package OscarAFDev\MigrationsGenerator\Syntax
+ * @package RafahSBorges\MigrationsGenerator\Syntax
  */
 class AddForeignKeysToTable extends Table {
 

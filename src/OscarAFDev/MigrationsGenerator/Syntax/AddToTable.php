@@ -1,8 +1,8 @@
-<?php namespace OscarAFDev\MigrationsGenerator\Syntax;
+<?php namespace RafahSBorges\MigrationsGenerator\Syntax;
 
 /**
  * Class AddToTable
- * @package OscarAFDev\MigrationsGenerator\Syntax
+ * @package RafahSBorges\MigrationsGenerator\Syntax
  */
 class AddToTable extends Table {
 
