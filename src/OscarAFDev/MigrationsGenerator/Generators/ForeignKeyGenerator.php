@@ -1,4 +1,4 @@
-<?php namespace OscarAFDev\MigrationsGenerator\Generators;
+<?php namespace RafahSBorges\MigrationsGenerator\Generators;
 
 class ForeignKeyGenerator {
 

@@ -1,4 +1,4 @@
-<?php namespace OscarAFDev\MigrationsGenerator;
+<?php namespace RafahSBorges\MigrationsGenerator;
 
 use Way\Generators\Commands\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
@@ -9,11 +9,11 @@ use Way\Generators\Filesystem\Filesystem;
 use Way\Generators\Compilers\TemplateCompiler;
 use Illuminate\Database\Migrations\MigrationRepositoryInterface;
 
-use OscarAFDev\MigrationsGenerator\Generators\SchemaGenerator;
-use OscarAFDev\MigrationsGenerator\Syntax\AddToTable;
-use OscarAFDev\MigrationsGenerator\Syntax\DroppedTable;
-use OscarAFDev\MigrationsGenerator\Syntax\AddForeignKeysToTable;
-use OscarAFDev\MigrationsGenerator\Syntax\RemoveForeignKeysFromTable;
+use RafahSBorges\MigrationsGenerator\Generators\SchemaGenerator;
+use RafahSBorges\MigrationsGenerator\Syntax\AddToTable;
+use RafahSBorges\MigrationsGenerator\Syntax\DroppedTable;
+use RafahSBorges\MigrationsGenerator\Syntax\AddForeignKeysToTable;
+use RafahSBorges\MigrationsGenerator\Syntax\RemoveForeignKeysFromTable;
 use Illuminate\Support\Str;
 
 use Illuminate\Contracts\Config\Repository as Config;
@@ -53,7 +53,7 @@ class MigrateGenerateCommand extends GeneratorCommand {
 	protected $config;
 
 	/**
-	 * @var \OscarAFDev\MigrationsGenerator\Generators\SchemaGenerator
+	 * @var \RafahSBorges\MigrationsGenerator\Generators\SchemaGenerator
 	 */
 	protected $schemaGenerator;
 

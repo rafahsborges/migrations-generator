@@ -1,6 +1,6 @@
 <?php
 
-namespace OscarAFDev\MigrationsGenerator\Syntax;
+namespace RafahSBorges\MigrationsGenerator\Syntax;
 
 class DroppedTable
 {

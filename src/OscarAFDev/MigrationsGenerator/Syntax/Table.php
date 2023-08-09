@@ -1,8 +1,8 @@
-<?php namespace OscarAFDev\MigrationsGenerator\Syntax;
+<?php namespace RafahSBorges\MigrationsGenerator\Syntax;
 
 /**
  * Class Table
- * @package OscarAFDev\MigrationsGenerator\Syntax
+ * @package RafahSBorges\MigrationsGenerator\Syntax
  */
 abstract class Table extends \Way\Generators\Syntax\Table{
 

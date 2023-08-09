@@ -1,4 +1,4 @@
-<?php namespace OscarAFDev\MigrationsGenerator;
+<?php namespace RafahSBorges\MigrationsGenerator;
 
 use Mockery;
 use PHPUnit_Framework_TestCase;
@@ -87,7 +87,7 @@ class MigrationsGeneratorServiceProviderTest extends PHPUnit_Framework_TestCase 
             );
 
           $this->assertInstanceOf(
-            'OscarAFDev\MigrationsGenerator\MigrateGenerateCommand',
+            'RafahSBorges\MigrationsGenerator\MigrateGenerateCommand',
             $callback($mock)
           );
 
@@ -128,7 +128,7 @@ class MigrationsGeneratorServiceProviderTest extends PHPUnit_Framework_TestCase 
       $app_mock = $this->get_app_mock();
     }
 
-    return Mockery::mock('OscarAFDev\MigrationsGenerator\MigrationsGeneratorServiceProvider', [
+    return Mockery::mock('RafahSBorges\MigrationsGenerator\MigrationsGeneratorServiceProvider', [
         $app_mock
       ])
       ->shouldAllowMockingProtectedMethods()

@@ -1,4 +1,4 @@
-<?php namespace OscarAFDev\MigrationsGenerator;
+<?php namespace RafahSBorges\MigrationsGenerator;
 
 use Mockery;
 use PHPUnit_Framework_TestCase;

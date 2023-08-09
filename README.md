@@ -1,7 +1,7 @@
 # Laravel Migrations Generator Laravel 5/6/7/8/9 +
-[![Latest Stable Version](https://poser.pugx.org/oscarafdev/migrations-generator/v/stable)](https://packagist.org/packages/oscarafdev/migrations-generator)
-[![Monthly Downloads](https://poser.pugx.org/oscarafdev/migrations-generator/d/monthly)](//packagist.org/packages/oscarafdev/migrations-generator)
-[![License](https://poser.pugx.org/oscarafdev/migrations-generator/license)](https://packagist.org/packages/oscarafdev/migrations-generator)
+[![Latest Stable Version](https://poser.pugx.org/rafahsborges/migrations-generator/v/stable)](https://packagist.org/packages/rafahsborges/migrations-generator)
+[![Monthly Downloads](https://poser.pugx.org/rafahsborges/migrations-generator/d/monthly)](//packagist.org/packages/rafahsborges/migrations-generator)
+[![License](https://poser.pugx.org/rafahsborges/migrations-generator/license)](https://packagist.org/packages/rafahsborges/migrations-generator)
 
 Generate Laravel Migrations from an existing database, including indexes and foreign keys!
 
@@ -15,7 +15,7 @@ https://t.me/h0rnero
 The recommended way to install this is through composer:
 
 ```bash
-composer require oscarafdev/migrations-generator --dev
+composer require rafahsborges/migrations-generator --dev
 ```
 
 In Laravel 5.5+ the service providers will automatically get registered. 
@@ -56,11 +56,9 @@ Thanks to Jeffrey Way for his amazing Laravel-4-Generators package. This package
 
 ## Contributors
 
-Bernhard Breytenbach ([@BBreyten](https://twitter.com/BBreyten))
+Rafah S Borges ([@rafahsborges](https://www.linkedin.com/in/rafahsborges/))
 
-Oscar Fernandez ([@oscarafdev](https://www.linkedin.com/in/oscarafdev/))
-
-ofernandez@sofrecom.com.ar
+rafahsborges@outlook.com
 
 ## License
 

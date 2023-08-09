@@ -1,4 +1,4 @@
-<?php namespace OscarAFDev\MigrationsGenerator;
+<?php namespace RafahSBorges\MigrationsGenerator;
 
 use Illuminate\Support\ServiceProvider;
 
