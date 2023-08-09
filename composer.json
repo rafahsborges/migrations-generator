@@ -1,23 +1,23 @@
 {
-	"name": "oscarafdev/migrations-generator",
+	"name": "rafahsborges/migrations-generator",
 	"description": "Generates Laravel Migrations from an existing database",
 	"keywords": ["laravel", "migration", "generator", "migrations", "artisan"],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Oscar Fernandez",
-			"email": "oscarafdev@gmail.com"
+			"name": "Rafah S Borges",
+			"email": "rafahsborges@outlook.com"
 		}
 	],
 	"require": {
 		"php": "^5.6 || ^7.0 || ^8.0",
 		"illuminate/support": "^5.0 || ^6.0 || ^7.0 || ^8.0|| ^9.0",
-		"oscarafdev/laravel-4-generators": "^3.1",
+		"rafahsborges/laravel-4-generators": "^3.1",
 		"doctrine/dbal": "~2.10"
 	},
 	"autoload": {
 		"psr-0": {
-			"OscarAFDev\\MigrationsGenerator": "src/"
+			"RafahSBorges\\MigrationsGenerator": "src/"
 		}
 	},
 	"require-dev": {
@@ -30,7 +30,7 @@
 		"laravel": {
 			"providers": [
 				"Way\\Generators\\GeneratorsServiceProvider",
-				"OscarAFDev\\MigrationsGenerator\\MigrationsGeneratorServiceProvider"
+				"RafahSBorges\\MigrationsGenerator\\MigrationsGeneratorServiceProvider"
 			]
 		}
 	}
