@@ -1,16 +1,12 @@
-# Laravel Migrations Generator Laravel 5/6/7/8/9 +
-[![Latest Stable Version](https://poser.pugx.org/rafahsborges/migrations-generator/v/stable)](https://packagist.org/packages/rafahsborges/migrations-generator)
-[![Monthly Downloads](https://poser.pugx.org/rafahsborges/migrations-generator/d/monthly)](//packagist.org/packages/rafahsborges/migrations-generator)
-[![License](https://poser.pugx.org/rafahsborges/migrations-generator/license)](https://packagist.org/packages/rafahsborges/migrations-generator)
+# Laravel Migrations Generator Laravel 10 +
 
 Generate Laravel Migrations from an existing database, including indexes and foreign keys!
 
 # Contact
 
-https://t.me/h0rnero
+https://t.me/rafahsborges
 
-
-## Laravel 6/7/8 installation
+## Laravel 10 installation
 
 The recommended way to install this is through composer:
 
@@ -18,7 +14,7 @@ The recommended way to install this is through composer:
 composer require rafahsborges/migrations-generator --dev
 ```
 
-In Laravel 5.5+ the service providers will automatically get registered. 
+In Laravel 10 the service providers will automatically get registered.
 
 ## Usage
 
@@ -38,25 +34,16 @@ Check out Chung Tran's blog post for a quick step by step introduction: [Generat
 
 Changelog for Laravel Migrations Generator
 
-### Jan 2021: v2.0.24
-* Support for Laravel 8
-* Fixed a issue where double single quotes were generated
-
-### Ago 2020: v2.0.23
-* Added support for precisions in timestamp.
-* Fixed an issue with the text type.
-* Fixed other reported bugs
-
-### May 2020: v2.0.19
-* Support for Laravel 7
+### Ago 2023: v3.0.0
+* Minimum supported versions: PHP 8.0 and Laravel 10
 
 ## Thank You
 
-Thanks to Jeffrey Way for his amazing Laravel-4-Generators package. This package depends greatly on his work.
+Thanks to Jeffrey Way and OscarDev for their unique packages. This package depends significantly on their work.
 
 ## Contributors
 
-Rafah S Borges ([@rafahsborges](https://www.linkedin.com/in/rafahsborges/))
+Rafah S Borges ([@rafahsborges](https://www.linkedin.com/in/rafael-souza-borges-92995426/))
 
 rafahsborges@outlook.com
 
